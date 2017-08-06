@@ -25,6 +25,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #ffffff;
+    border-bottom: 1px solid #CCC;
 }
 p {
     font-size: 1.5em;
