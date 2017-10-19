@@ -39,9 +39,10 @@ p {
     color: #ffffff;
 }
 pre {
-    font-size: 1.2em;
-    line-height: 1.4em;
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #ffffff;
+    line-height: 1.4em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
