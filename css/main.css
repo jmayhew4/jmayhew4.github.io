@@ -37,6 +37,7 @@ p {
     font-size: 1.2em;
     line-height: 1.2em;
     color: #ffffff;
+    white-space: pre-wrap;
 }
 pre {
     font-size: 1.3em;
