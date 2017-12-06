@@ -48,8 +48,10 @@ pre {
 }
 
 .bordered {
-    height: 55px;
-    padding: 15px;
+    font-size: 2.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ffffff;
+    padding: 3px;
     border: 7px outset white;
 }
 
