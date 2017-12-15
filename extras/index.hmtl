@@ -4,9 +4,6 @@ title: Extras
 ---
 
 <div class="extras">
-<head>
-<meta charset="utf-8" />
-</head>
         
         <!-- This page was a project I had worked on while in school. I did not create the shaders myself,
              but I did do the work to make the drawing happen. Just thought I'd share this neat thing I worked on.
@@ -69,7 +66,6 @@ title: Extras
         <script src="math2D.js"></script>
         <script src="2D Drawing.js"></script>
     </body>
-
  
 
 </div>
