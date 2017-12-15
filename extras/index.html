@@ -4,68 +4,14 @@ title: Extras
 ---
 
 <div class="extras">
-        
-        <!-- This page was a project I had worked on while in school. I did not create the shaders myself,
-             but I did do the work to make the drawing happen. Just thought I'd share this neat thing I worked on.
-          -->
-        <script id="vertex-shader" type="x-shader/x-vertex">
-
-            attribute vec4 a_Position;
-
-            void main()
-                {   
-                gl_Position = a_Position;
-                gl_PointSize = 15.0;
-                } 
-        </script>
-
-        <script id="fragment-shader" type="x-shader/x-fragment">
-
-            precision mediump float;
-            uniform vec4 u_FragColor;
-
-            void main()
-                {
-                gl_FragColor = u_FragColor;
-                }
-        </script>               
-
-    <body onload="main()">
-        <!-- create canvas -->
-        <h1 id = "App_Title">2D Drawing</h1>
-        
-        <div style="float:left">
-            <canvas id="webgl" width="600" height="600">
-                Please use a browser that supports "canvas"
-            </canvas>
-        </div>
-               
-        <!-- create GUI components -->
-        <div style="width:300px; float:left; margin-left:50px;">
-            <!-- buttons 
-                 Student Note: See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button 
-              -->
-            <button id = "LineButton" style="margin-bottom:10px;margin-top:10px;height:40px; width:100px">Line</button><br>
-            <button id = "TriangleButton" style="margin-bottom:10px;margin-top:10px;height:40px; width:100px">Triangle</button><br>
-            <button id = "QuadButton" style="margin-bottom:10px;margin-top:10px;height:40px; width:100px">Quad</button><br>
-            <button id = "DeleteButton" style="margin-bottom:10px;margin-top:10px;height:40px; width:100px">Delete</button><br>
-            <button id = "ClearScreenButton" style="margin-bottom:10px;margin-top:10px;height:40px; width:100px">ClearScreen</button><br>
-            <!-- sliders 
-                 See https://www.w3.org/wiki/HTML/Elements/input/range
-              -->
-            Red: <input type="range" id="RedRange"><br>
-            Green: <input type="range" id="GreenRange"><br>
-            Blue: <input type="range" id="BlueRange"><br>
-        </div>
-
-        <!-- load JS scripts -->
-        <script src="../lib/webgl-utils.js"></script>
-        <script src="../lib/webgl-debug.js"></script>
-        <script src="../lib/cuon-utils.js"></script>
-        <script src="../lib/uncc_webgl_utils/uncc_webgl_utils.js"></script>
-        <script src="math2D.js"></script>
-        <script src="2D Drawing.js"></script>
-    </body>
+<h1>Projects</h1>
+<div class="info w3-card">
+                <div class="w3-container w3-center">
+                    <ul class="w3-ul">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id sapien mollis, condimentum lacus tempor, interdum lorem. Nunc tempus at sapien sit amet sollicitudin.</li>
+                    </ul>
+                </div>
+            </div>
  
 
 </div>
