@@ -32,6 +32,9 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #000000;
 }
+h3 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 p {
     font-size: 1.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,7 +46,8 @@ pre {
     font-size: 1.3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #ffffff;
-    line-height: 1.4em;
+    line-height: 1.45em;
+    white-space: pre-wrap;
 }
 
 .bordered {
