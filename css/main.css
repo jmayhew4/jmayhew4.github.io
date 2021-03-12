@@ -22,8 +22,8 @@ a:hover {
     background-color: #ffbf80;
 }
 
-.half-line {
-  line-height: 20px;
+br {
+  font-size: 24%;
 }
 h1 {
     font-size: 3em;
