@@ -22,7 +22,7 @@ a:hover {
     background-color: #ffbf80;
 }
 br {
-    line-height: 5px;
+    line-height: .5em;
 }
 h1 {
     font-size: 3em;
