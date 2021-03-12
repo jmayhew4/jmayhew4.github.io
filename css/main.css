@@ -21,8 +21,10 @@ a:hover {
     text-decoration: underline;
     background-color: #ffbf80;
 }
-
 br {
+  content: "";
+  margin: 2em;
+  display: block;
   font-size: 24%;
 }
 h1 {
