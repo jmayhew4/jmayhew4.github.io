@@ -76,3 +76,15 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+input[type=checkbox]{
+   display: none;
+}
+input[type=checkbox] + label:after {
+   content: 'some content';
+   display: block;
+} 
+input[type=checkbox]:checked + label:after {
+   content: 'some other content';
+   display: block;
+}
