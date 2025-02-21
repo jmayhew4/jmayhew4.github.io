@@ -82,7 +82,17 @@ input[type=checkbox]{
 }
 input[type=checkbox] + label:after {
    content: 'resume';
+   border-top: 1px solid #d5d5d5;
+   font-size: .8em;
+    list-style: none;
+    text-decoration: none;
+    color: #b3b3b3;
 } 
 input[type=checkbox]:checked + label:after {
    content: 'Available on request!';
+   border-top: 1px solid #d5d5d5;
+   font-size: .8em;
+    list-style: none;
+    text-decoration: none;
+    color: #b3b3b3;
 }
