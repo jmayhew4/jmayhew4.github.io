@@ -81,10 +81,10 @@ input[type=checkbox]{
    display: none;
 }
 input[type=checkbox] + label:after {
-   content: 'some content';
+   content: 'resume';
    display: block;
 } 
 input[type=checkbox]:checked + label:after {
-   content: 'some other content';
+   content: 'Available on request!';
    display: block;
 }
