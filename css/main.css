@@ -82,9 +82,7 @@ input[type=checkbox]{
 }
 input[type=checkbox] + label:after {
    content: 'resume';
-   display: block;
 } 
 input[type=checkbox]:checked + label:after {
    content: 'Available on request!';
-   display: block;
 }
